@@ -1,0 +1,50 @@
+                                                            HTTP1.1 vs HTTP2
+                                       
+                                     Here i started my first blog we can discussed about the   Differance between the Http1.1 vs Http2
+                            Http :
+
+                            Http means Hyper Text Transfer Protocol it is an application-layer protocol for transmitting hypermedia documents
+                            such as Html.
+                           
+                            WWW means World Wide Web.  It is Communication between  webclient and servers.It's invation in 1989.
+
+                            Protocol:
+
+                                     A network protocol is established set of rules that detemine how data is transmitted between 
+                            the different devices in the same network..
+                          
+                            Http 1.1:
+
+                                     It's load resources one after the other so if one resources cannot be loaded,it blocks all the other 
+                            resources behind it.It was the third version of http and standarted protocol  for over 15 years. It introduced  
+                            persistent connections for improved performance and laid the foundation for standarted such as 
+                            GET,HEAD,PUT,POST.
+                              
+                            Http2.2 :
+                              
+                                    The Http2 is able to use single TCP connection to send multiple data at once so that no one resources blocks
+                            and other resources.
+
+                            In that following conditions first wen can discussed about the Http and Http 1.1 and Http2 ... and now we can 
+                            discussed about the  Major differance between the Http1.1 vs Http2.
+
+                                  From the release of Http1.1 in 1997. and the Reimagined version called Http2 and it's offered several methods
+                            to decrease the latency especially when delaying with mobile and server intensive graphice and videos.
+
+                                                 Differance between HTTP1.1 vs HTT2
+                              
+                            1.The Http2 is  much faster and more reliable than Http1.1
+                            
+                            2.Http1.1  loads single request  foe every Tcp connection while Http2 avoids the network delay by using multiplexing.
+                            
+                            3.Http1.1 introduce a warning header field to carry additional information about the status of message define 24 
+                              status code error reporting is quick and more effficient.The Http1 is underlining the semantic of http such has 
+                              header status code remaining the same.
+                            
+                           4.Http 1.1 used NTLM authendication and the Http 2 securing concerns from previous versions.
+                                     
+                           5.Http 1.1  faster delivery of web pages and reduce webtraffic oof compared to http 1.0 and the Http 2 utlizes 
+                             multiplexing and server push to  effectively reduce pageload and to less network delay.
+                          
+                           6.Http2 requires your developer and designers to come up with new solutions between Http1.1 bugs as they can create issues
+                             with new standarteds. 

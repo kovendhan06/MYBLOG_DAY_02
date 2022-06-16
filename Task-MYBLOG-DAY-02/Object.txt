@@ -1,0 +1,103 @@
+                                           Objects and it's Internal Representation in Java Script
+          
+                             
+                In simple terms "A javascript object is a collection of key values having state and behaviour(properties and method)
+                   
+                    For example:
+                                Person,car,bike ,and personal computer etc....
+                   
+                    Take the case of cars 
+                                All cars have same properties,but the property values differ from car to car.All cars have same the  methods 
+               but the methods are performed at different times.
+               
+                                               Let's have an example
+                                                1. make:ford
+                                                2. model:2016
+                                                3. color:blue
+                                                4. fuel:diesel
+                                                5. weight:650kg
+                                                6. mileage:17kmpl
+                                                7. ratings:4.6
+
+                    Objects
+                               The following code assigns a simple value (ford) to a variable named car.
+                                     
+                                                   var car="ford";
+
+                               The following code assingns many values(ford,2016,blue and soo on) to a variable named car.
+                                           
+                                                     var car={
+                                                     make:"ford";
+                                                     model:2016;
+                                                     color:blue;
+                                                     fuel:diesel;
+                                                     weight:650kg;
+                                                     mileage:"17kmpl";
+                                                     ratings:4.6;
+                                                    };
+
+                               The values are written as key:value pairs(key and value seperated by a colon).
+                                
+                                    Syntax:
+                                                     var <object-name>={ key1: value1,
+                                                                         key2: value2,
+                                                                         ...keyN : valueN
+                                                                        };
+                     Object Properties:
+                               
+                               The key : values pairs are called properties....
+                                                 
+                                                       
+                                                     var car={
+                                                     make:"ford";
+                                                     model:2016;
+                                                     color:blue;
+                                                     fuel:diesel;
+                                                     weight:650kg;
+                                                     mileage:"17kmpl";
+                                                     ratings:4.6;
+                                                    };
+
+                               The object properties can be different primitive values ,other object and functions.
+
+                               properties can usually be changed added, and  deleted, butsome are related only.
+
+
+                             
+                                     The syntax for adding a property to an object is:
+                                    
+
+                                          ObjectName.ObjectProperty = PropertyValue;
+
+
+                               
+                                     The syntax for deleting a property to an object is:
+                                 
+
+                                          delete objectName.ObjectProperty;
+                               
+                                 
+                                     The syntax can access a property from an objct is:
+                              
+                                     
+                                          Objectname.Property   // car
+                                    
+                                          ObjectName.["Property"]   //car["make"]
+
+                                          ObjectName[expression]    // x="make";car[x]
+
+                                  
+
+                         Object Methods:
+                                     
+                                      An object method is an object property containing a function definition.
+                             i.e:
+                                      Let's assume to start the car there will be mechanical functionality.
+                                        
+                                           function() {return ignition.on}
+
+                                      and so similar to stop / brake / headlights on & off ,etc...
+                                                  
+
+                                                            Thank You
+
